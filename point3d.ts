@@ -10,5 +10,8 @@ class Point3d extends Point2d {
     getZ=()=>this.z;
     setZ=(z)=>this.z=z;
 
-    GetXYZ=()=>` Tọa độ x : ${this.x}, tọa độ y : ${this.y}, tọa độ z : ${this.z}`;
+    GetXYZ=()=>` x:${this.x} \n y:${this.y} \n z:${this.z}`
 }
+
+let point3d=new Point3d(12,34,11);
+console.log(point3d.GetXYZ());

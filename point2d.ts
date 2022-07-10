@@ -12,6 +12,8 @@ export class Point2d {
     setX=(x)=>this.x=x;
     setY=(y)=>this.y=y;
 
-     GetXY=()=>` Tọa độ x : ${this.x}, tọa độ y : ${this.y}`
-
+     GetXY=()=>`x:${this.x} ; y:${this.y}`;
 }
+
+let point =new Point2d(12,30);
+console.log(point.GetXY());
